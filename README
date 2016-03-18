@@ -1,0 +1,40 @@
+README
+hchen66@ucsc.edu
+Pair with Borui Wang
+
+Han Chen's Job in this project:
+1. Data Visualizaiton
+3. Data processing
+2. Classifiers: Naive Bayes, Random Forest, KNN.
+
+Instruction for Han Chen's files:
+1. 	Documents 
+	FinalReport(HanChenPart)	-> draft
+	TIM245_Proposal				-> Proposal 
+	TIM245Presentation			-> Presentation in PDF
+	FinalReport					-> Final Report for our group
+
+2.	GoogleMap:
+	temp.html:	Sample GoogleMap
+
+	getDataForDays.py:	write data on differenct day to .coor files. Then paste .coor files into .html.
+
+	data_20150511.html,data_20150512.html,data_20150512.html:
+		a. 	GoogleMap for data on 20150511-20150513
+		b. 	By clicking on the colourful dots, a piece of information will display.
+			Red  Dot:  	WARRANTS
+			Green Dot:	LARCENY/THEFT
+			Black Dot:	ASSAULT
+			Yellow Dot:	OTHER OFFENCES
+			Blue Dot: 	DRUG/NARCOTIC
+	Format.cpp, main: A .cpp file for format
+
+3.  HanChenClassifier
+	newtrain.csv:	new dataset file generated for faster computation
+
+	newClassification.py:	Modified code for classification, please adjust train = train.head(n=num) for faster computation
+
+	PlotBarHanChen.py:	Plot the features
+
+	pp_dataset.py:	used to generate newtrain.csv
+
